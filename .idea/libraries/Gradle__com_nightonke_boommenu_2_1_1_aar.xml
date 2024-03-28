@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.nightonke:boommenu:2.1.1@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f3b3f6a32e0a876da5c2e17d4b7c4c30/transformed/jetified-boommenu-2.1.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f3b3f6a32e0a876da5c2e17d4b7c4c30/transformed/jetified-boommenu-2.1.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/f3b3f6a32e0a876da5c2e17d4b7c4c30/transformed/jetified-boommenu-2.1.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

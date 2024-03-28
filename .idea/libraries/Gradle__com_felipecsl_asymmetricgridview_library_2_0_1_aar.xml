@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.felipecsl.asymmetricgridview:library:2.0.1@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1269189c7ad15b66ec32f99167280aa7/transformed/jetified-library-2.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1269189c7ad15b66ec32f99167280aa7/transformed/jetified-library-2.0.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/1269189c7ad15b66ec32f99167280aa7/transformed/jetified-library-2.0.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

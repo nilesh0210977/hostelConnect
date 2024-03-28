@@ -1,0 +1,722 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.iiitdmk.gdsc.hackathon"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:6:5-67
+11-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:7:5-9:32
+12-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:8:9-65
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:10:5-80
+13-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:10:22-77
+14    <uses-permission android:name="android.permission.READ_CONTACTS" />
+14-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:11:5-72
+14-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:11:22-69
+15    <uses-permission android:name="android.permission.CALL_PHONE" />
+15-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:12:5-69
+15-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:12:22-66
+16    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+16-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:13:5-78
+16-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:13:22-75
+17    <uses-permission android:name="android.permission.WAKE_LOCK" />
+17-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:14:5-68
+17-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:14:22-65
+18    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+18-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:15:5-81
+18-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:15:22-78
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+19-->[com.firebaseui:firebase-ui-auth:4.1.0] /Users/nileshsharma/.gradle/caches/transforms-3/1ecb69533f6fb86c8085677a028e526e/transformed/jetified-firebase-ui-auth-4.1.0/AndroidManifest.xml:12:5-79
+19-->[com.firebaseui:firebase-ui-auth:4.1.0] /Users/nileshsharma/.gradle/caches/transforms-3/1ecb69533f6fb86c8085677a028e526e/transformed/jetified-firebase-ui-auth-4.1.0/AndroidManifest.xml:12:22-76
+20    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+20-->[com.google.firebase:firebase-messaging:23.0.5] /Users/nileshsharma/.gradle/caches/transforms-3/07042d401ea0a5bca640f61d0f635c41/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:28:5-82
+20-->[com.google.firebase:firebase-messaging:23.0.5] /Users/nileshsharma/.gradle/caches/transforms-3/07042d401ea0a5bca640f61d0f635c41/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:28:22-79
+21    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+21-->[net.hockeyapp.android:HockeySDK:5.1.1] /Users/nileshsharma/.gradle/caches/transforms-3/4644ea7045e4dcd57fbf26215e1b9243/transformed/jetified-HockeySDK-5.1.1/AndroidManifest.xml:16:5-83
+21-->[net.hockeyapp.android:HockeySDK:5.1.1] /Users/nileshsharma/.gradle/caches/transforms-3/4644ea7045e4dcd57fbf26215e1b9243/transformed/jetified-HockeySDK-5.1.1/AndroidManifest.xml:16:22-80
+22    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+22-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/nileshsharma/.gradle/caches/transforms-3/49cbabb095fe1ff9f1fdf6f48c2def6e/transformed/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:25:5-79
+22-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/nileshsharma/.gradle/caches/transforms-3/49cbabb095fe1ff9f1fdf6f48c2def6e/transformed/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:25:22-76
+23    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+23-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/nileshsharma/.gradle/caches/transforms-3/8e4fbda1d86fb84b3bf31865ddf90d69/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:26:5-110
+23-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/nileshsharma/.gradle/caches/transforms-3/8e4fbda1d86fb84b3bf31865ddf90d69/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:26:22-107
+24
+25    <application
+25-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:17:5-414:19
+26        android:allowBackup="false"
+26-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:18:9-36
+27        android:configChanges="keyboardHidden|screenSize"
+27-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:19:9-58
+28        android:dataExtractionRules="@xml/data_extraction_rules"
+28-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:20:9-65
+29        android:debuggable="true"
+30        android:fullBackupContent="false"
+30-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:21:9-42
+31        android:hardwareAccelerated="false"
+31-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:22:9-44
+32        android:icon="@mipmap/logo_hostelconnect"
+32-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:23:9-50
+33        android:label="hostelConnect"
+33-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:24:9-38
+34        android:largeHeap="true"
+34-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:25:9-33
+35        android:screenOrientation="portrait"
+35-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:26:9-45
+36        android:supportsRtl="true"
+36-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:27:9-35
+37        android:testOnly="true"
+38        android:theme="@style/AppTheme" >
+38-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:28:9-40
+39        <activity
+39-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:32:9-41:20
+40            android:name="com.iiitdmk.gdsc.hackathon.Account.SplashActivity"
+40-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:33:13-77
+41            android:exported="true"
+41-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:34:13-36
+42            android:screenOrientation="portrait"
+42-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:35:13-49
+43            android:theme="@style/Theme.AppCompat.NoActionBar" >
+43-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:36:13-63
+44            <intent-filter>
+44-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:37:13-40:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:38:17-69
+45-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:38:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:39:17-77
+47-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:39:27-74
+48            </intent-filter>
+49        </activity>
+50        <activity
+50-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:43:9-47:66
+51            android:name="com.iiitdmk.gdsc.hackathon.Account.IntroScreen"
+51-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:44:13-74
+52            android:exported="false"
+52-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:45:13-37
+53            android:screenOrientation="portrait"
+53-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:46:13-49
+54            android:theme="@style/Theme.AppCompat.NoActionBar" />
+54-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:47:13-63
+55        <activity
+55-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:49:9-54:20
+56            android:name="com.iiitdmk.gdsc.hackathon.TestActivity"
+56-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:50:13-67
+57            android:exported="false"
+57-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:51:13-37
+58            android:theme="@style/Theme.AppCompat.NoActionBar" >
+58-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:52:13-63
+59        </activity>
+60        <activity
+60-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:55:9-61:20
+61            android:name="com.iiitdmk.gdsc.hackathon.Account.LoginActivity"
+61-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:56:13-76
+62            android:exported="false"
+62-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:57:13-37
+63            android:theme="@style/Theme.AppCompat.NoActionBar"
+63-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:58:13-63
+64            android:windowSoftInputMode="adjustPan" >
+64-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:59:13-52
+65        </activity>
+66        <activity
+66-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:62:9-69:20
+67            android:name="com.iiitdmk.gdsc.hackathon.Account.RegisterActivity"
+67-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:63:13-79
+68            android:exported="false"
+68-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:64:13-37
+69            android:theme="@style/Theme.AppCompat.NoActionBar"
+69-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:65:13-63
+70            android:windowSoftInputMode="adjustPan" >
+70-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:66:13-52
+71        </activity>
+72        <activity
+72-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:70:9-76:15
+73            android:name="com.iiitdmk.gdsc.hackathon.Account.ForgotPassword"
+73-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:71:13-77
+74            android:exported="false"
+74-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:72:13-37
+75            android:screenOrientation="portrait"
+75-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:73:13-49
+76            android:theme="@style/AppTheme.NoActionBar.TitleBar" />
+76-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:74:13-65
+77        <activity
+77-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:78:9-83:68
+78            android:name="com.iiitdmk.gdsc.hackathon.Council.CouncilActivity"
+78-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:79:13-78
+79            android:exported="false"
+79-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:80:13-37
+80            android:label="Council"
+80-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:81:13-36
+81            android:screenOrientation="portrait"
+81-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:82:13-49
+82            android:theme="@style/AppTheme.NoActionBar.TitleBar" />
+82-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:83:13-65
+83        <activity
+83-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:85:9-91:15
+84            android:name="com.iiitdmk.gdsc.hackathon.HomeActivity"
+84-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:86:13-67
+85            android:exported="false"
+85-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:87:13-37
+86            android:screenOrientation="portrait"
+86-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:88:13-49
+87            android:theme="@style/AppTheme.NoActionBar.TitleBar" />
+87-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:89:13-65
+88        <activity
+88-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:93:9-99:20
+89            android:name="com.iiitdmk.gdsc.hackathon.Mess.MessActivity"
+89-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:94:13-72
+90            android:exported="false"
+90-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:95:13-37
+91            android:screenOrientation="portrait"
+91-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:96:13-49
+92            android:theme="@style/AppTheme.NoActionBar.TitleBar" >
+92-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:97:13-65
+93        </activity>
+94        <activity
+94-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:102:9-109:20
+95            android:name="com.iiitdmk.gdsc.hackathon.Complaints.ComplaintsActivity"
+95-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:103:13-84
+96            android:exported="false"
+96-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:104:13-37
+97            android:theme="@style/AppTheme.NoActionBar.TitleBar" >
+97-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:105:13-65
+98            <meta-data
+98-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:106:13-108:75
+99                android:name="android.support.PARENT_ACTIVITY"
+99-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:107:17-63
+100                android:value="com.iiitdmk.gdsc.hackathon.HomeActivity" />
+100-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:108:17-72
+101        </activity>
+102        <activity
+102-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:112:9-119:20
+103            android:name="com.iiitdmk.gdsc.hackathon.Complaints.ComplainRegister"
+103-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:113:13-82
+104            android:exported="false"
+104-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:114:13-37
+105            android:screenOrientation="portrait" >
+105-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:115:13-49
+106            <meta-data
+106-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:106:13-108:75
+107                android:name="android.support.PARENT_ACTIVITY"
+107-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:107:17-63
+108                android:value="com.iiitdmk.gdsc.hackathon.Complaints.ComplaintsActivity" />
+108-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:108:17-72
+109        </activity>
+110        <activity
+110-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:121:9-130:20
+111            android:name="com.iiitdmk.gdsc.hackathon.Complaints.ComplainStatus"
+111-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:122:13-80
+112            android:exported="false"
+112-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:123:13-37
+113            android:screenOrientation="portrait" >
+113-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:124:13-49
+114            <meta-data
+114-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:106:13-108:75
+115                android:name="android.support.PARENT_ACTIVITY"
+115-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:107:17-63
+116                android:value="com.iiitdmk.gdsc.hackathon.Complaints.ComplaintsActivity" />
+116-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:108:17-72
+117        </activity>
+118        <activity
+118-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:131:9-139:20
+119            android:name="com.iiitdmk.gdsc.hackathon.Complaints.StatusDetails"
+119-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:132:13-79
+120            android:exported="false"
+120-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:133:13-37
+121            android:screenOrientation="portrait"
+121-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:134:13-49
+122            android:theme="@style/AppTheme" >
+122-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:135:13-44
+123            <meta-data
+123-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:106:13-108:75
+124                android:name="android.support.PARENT_ACTIVITY"
+124-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:107:17-63
+125                android:value="com.iiitdmk.gdsc.hackathon.Complaints.ComplaintsActivity" />
+125-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:108:17-72
+126        </activity>
+127        <activity
+127-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:141:9-149:20
+128            android:name="com.iiitdmk.gdsc.hackathon.Council.CouncilWarden"
+128-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:142:13-76
+129            android:exported="false"
+129-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:143:13-37
+130            android:label="Council"
+130-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:144:13-36
+131            android:screenOrientation="portrait" >
+131-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:145:13-49
+132            <meta-data
+132-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:106:13-108:75
+133                android:name="android.support.PARENT_ACTIVITY"
+133-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:107:17-63
+134                android:value="com.iiitdmk.gdsc.hackathon.Council.CouncilActivity" />
+134-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:108:17-72
+135        </activity>
+136        <activity
+136-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:150:9-158:20
+137            android:name="com.iiitdmk.gdsc.hackathon.Council.CouncilGenSecy"
+137-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:151:13-77
+138            android:exported="false"
+138-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:152:13-37
+139            android:label="Council"
+139-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:153:13-36
+140            android:screenOrientation="portrait" >
+140-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:154:13-49
+141            <meta-data
+141-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:106:13-108:75
+142                android:name="android.support.PARENT_ACTIVITY"
+142-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:107:17-63
+143                android:value="com.iiitdmk.gdsc.hackathon.Council.CouncilActivity" />
+143-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:108:17-72
+144        </activity>
+145        <activity
+145-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:160:9-167:20
+146            android:name="com.iiitdmk.gdsc.hackathon.Council.CouncilSportsSecy"
+146-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:161:13-80
+147            android:exported="false"
+147-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:162:13-37
+148            android:label="Council" >
+148-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:163:13-36
+149            <meta-data
+149-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:106:13-108:75
+150                android:name="android.support.PARENT_ACTIVITY"
+150-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:107:17-63
+151                android:value="com.iiitdmk.gdsc.hackathon.Council.CouncilActivity" />
+151-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:108:17-72
+152        </activity>
+153        <activity
+153-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:169:9-176:20
+154            android:name="com.iiitdmk.gdsc.hackathon.Council.CouncilCulturalSecy"
+154-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:170:13-82
+155            android:exported="false"
+155-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:171:13-37
+156            android:label="Council" >
+156-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:172:13-36
+157            <meta-data
+157-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:106:13-108:75
+158                android:name="android.support.PARENT_ACTIVITY"
+158-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:107:17-63
+159                android:value="com.iiitdmk.gdsc.hackathon.Council.CouncilActivity" />
+159-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:108:17-72
+160        </activity>
+161        <activity
+161-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:178:9-186:20
+162            android:name="com.iiitdmk.gdsc.hackathon.Council.CouncilFHostelSecy"
+162-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:179:13-81
+163            android:exported="false"
+163-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:180:13-37
+164            android:label="Council"
+164-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:181:13-36
+165            android:screenOrientation="portrait" >
+165-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:182:13-49
+166            <meta-data
+166-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:106:13-108:75
+167                android:name="android.support.PARENT_ACTIVITY"
+167-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:107:17-63
+168                android:value="com.iiitdmk.gdsc.hackathon.Council.CouncilActivity" />
+168-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:108:17-72
+169        </activity>
+170        <activity
+170-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:188:9-195:20
+171            android:name="com.iiitdmk.gdsc.hackathon.Council.CouncilFHosMainSecy"
+171-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:189:13-82
+172            android:exported="false"
+172-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:190:13-37
+173            android:screenOrientation="portrait" >
+173-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:191:13-49
+174            <meta-data
+174-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:106:13-108:75
+175                android:name="android.support.PARENT_ACTIVITY"
+175-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:107:17-63
+176                android:value="com.iiitdmk.gdsc.hackathon.Council.CouncilActivity" />
+176-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:108:17-72
+177        </activity>
+178        <activity
+178-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:197:9-205:20
+179            android:name="com.iiitdmk.gdsc.hackathon.Council.CouncilFMessSecy"
+179-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:198:13-79
+180            android:exported="false"
+180-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:199:13-37
+181            android:label="Council"
+181-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:200:13-36
+182            android:screenOrientation="portrait" >
+182-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:201:13-49
+183            <meta-data
+183-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:106:13-108:75
+184                android:name="android.support.PARENT_ACTIVITY"
+184-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:107:17-63
+185                android:value="com.iiitdmk.gdsc.hackathon.Council.CouncilActivity" />
+185-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:108:17-72
+186        </activity>
+187        <activity
+187-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:207:9-215:20
+188            android:name="com.iiitdmk.gdsc.hackathon.Council.CouncilEmergency"
+188-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:208:13-79
+189            android:exported="false"
+189-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:209:13-37
+190            android:label="Council"
+190-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:210:13-36
+191            android:screenOrientation="portrait" >
+191-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:211:13-49
+192            <meta-data
+192-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:106:13-108:75
+193                android:name="android.support.PARENT_ACTIVITY"
+193-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:107:17-63
+194                android:value="com.iiitdmk.gdsc.hackathon.Council.CouncilActivity" />
+194-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:108:17-72
+195        </activity>
+196        <activity
+196-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:217:9-225:20
+197            android:name="com.iiitdmk.gdsc.hackathon.Council.CouncilFSportsSecy"
+197-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:218:13-81
+198            android:exported="false"
+198-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:219:13-37
+199            android:label="Council"
+199-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:220:13-36
+200            android:screenOrientation="portrait" >
+200-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:221:13-49
+201            <meta-data
+201-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:106:13-108:75
+202                android:name="android.support.PARENT_ACTIVITY"
+202-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:107:17-63
+203                android:value="com.iiitdmk.gdsc.hackathon.Council.CouncilActivity" />
+203-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:108:17-72
+204        </activity>
+205        <activity
+205-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:227:9-231:59
+206            android:name="com.iiitdmk.gdsc.hackathon.User.UpdatePassword"
+206-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:228:13-74
+207            android:exported="false"
+207-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:229:13-37
+208            android:screenOrientation="portrait"
+208-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:230:13-49
+209            android:theme="@style/AppTheme.NoActionBar" />
+209-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:231:13-56
+210        <activity
+210-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:233:9-241:20
+211            android:name="com.iiitdmk.gdsc.hackathon.User.ProfileActivity"
+211-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:234:13-75
+212            android:exported="false"
+212-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:235:13-37
+213            android:screenOrientation="portrait"
+213-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:236:13-49
+214            android:theme="@style/AppTheme.NoActionBar" >
+214-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:237:13-56
+215            <meta-data
+215-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:106:13-108:75
+216                android:name="android.support.PARENT_ACTIVITY"
+216-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:107:17-63
+217                android:value="com.iiitdmk.gdsc.hackathon.HomeActivity" />
+217-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:108:17-72
+218        </activity>
+219        <activity
+219-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:243:9-250:20
+220            android:name="com.iiitdmk.gdsc.hackathon.User.EditInfoActivity"
+220-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:244:13-76
+221            android:exported="false"
+221-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:245:13-37
+222            android:screenOrientation="portrait" >
+222-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:246:13-49
+223            <meta-data
+223-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:106:13-108:75
+224                android:name="android.support.PARENT_ACTIVITY"
+224-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:107:17-63
+225                android:value="com.iiitdmk.gdsc.hackathon.User.ProfileActivity" />
+225-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:108:17-72
+226        </activity>
+227        <activity
+227-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:252:9-260:20
+228            android:name="com.iiitdmk.gdsc.hackathon.Resources.ResourceActivity"
+228-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:253:13-81
+229            android:exported="false"
+229-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:254:13-37
+230            android:screenOrientation="portrait"
+230-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:255:13-49
+231            android:theme="@style/AppTheme.NoActionBar" >
+231-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:256:13-56
+232            <meta-data
+232-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:106:13-108:75
+233                android:name="android.support.PARENT_ACTIVITY"
+233-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:107:17-63
+234                android:value="com.iiitdmk.gdsc.hackathon.HomeActivity" />
+234-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:108:17-72
+235        </activity>
+236        <activity
+236-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:262:9-270:20
+237            android:name="com.iiitdmk.gdsc.hackathon.Resources.CS.CSResourceDocs"
+237-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:263:13-82
+238            android:exported="false"
+238-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:264:13-37
+239            android:screenOrientation="portrait"
+239-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:265:13-49
+240            android:theme="@style/AppTheme.NoActionBar" >
+240-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:266:13-56
+241            <meta-data
+241-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:106:13-108:75
+242                android:name="android.support.PARENT_ACTIVITY"
+242-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:107:17-63
+243                android:value="com.iiitdmk.gdsc.hackathon.Resources.CS.CSBranch" />
+243-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:108:17-72
+244        </activity>
+245        <activity
+245-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:272:9-279:20
+246            android:name="com.iiitdmk.gdsc.hackathon.Resources.CS.CSBranch"
+246-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:273:13-76
+247            android:exported="false"
+247-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:274:13-37
+248            android:screenOrientation="portrait" >
+248-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:275:13-49
+249            <meta-data
+249-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:106:13-108:75
+250                android:name="android.support.PARENT_ACTIVITY"
+250-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:107:17-63
+251                android:value="com.iiitdmk.gdsc.hackathon.Resources.ResourceActivity" />
+251-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:108:17-72
+252        </activity>
+253        <activity android:name="com.iiitdmk.gdsc.hackathon.Resources.EE.EEBranch" >
+253-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:281:9-285:20
+253-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:281:19-82
+254            <meta-data
+254-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:106:13-108:75
+255                android:name="android.support.PARENT_ACTIVITY"
+255-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:107:17-63
+256                android:value="com.iiitdmk.gdsc.hackathon.Resources.ResourceActivity" />
+256-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:108:17-72
+257        </activity>
+258        <activity
+258-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:287:9-295:20
+259            android:name="com.iiitdmk.gdsc.hackathon.Resources.EE.EEResourceDocs"
+259-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:288:13-82
+260            android:exported="false"
+260-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:289:13-37
+261            android:screenOrientation="portrait"
+261-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:290:13-49
+262            android:theme="@style/AppTheme.NoActionBar" >
+262-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:291:13-56
+263            <meta-data
+263-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:106:13-108:75
+264                android:name="android.support.PARENT_ACTIVITY"
+264-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:107:17-63
+265                android:value="com.iiitdmk.gdsc.hackathon.Resources.EE.EEBranch" />
+265-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:108:17-72
+266        </activity>
+267        <activity
+267-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:297:9-304:20
+268            android:name="com.iiitdmk.gdsc.hackathon.Resources.ME.MEBranch"
+268-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:298:13-76
+269            android:exported="false"
+269-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:299:13-37
+270            android:screenOrientation="portrait" >
+270-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:300:13-49
+271            <meta-data
+271-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:106:13-108:75
+272                android:name="android.support.PARENT_ACTIVITY"
+272-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:107:17-63
+273                android:value="com.iiitdmk.gdsc.hackathon.Resources.ResourceActivity" />
+273-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:108:17-72
+274        </activity>
+275        <activity
+275-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:306:9-314:20
+276            android:name="com.iiitdmk.gdsc.hackathon.Resources.ME.MEResourceDocs"
+276-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:307:13-82
+277            android:exported="false"
+277-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:308:13-37
+278            android:screenOrientation="portrait"
+278-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:309:13-49
+279            android:theme="@style/AppTheme.NoActionBar" >
+279-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:310:13-56
+280            <meta-data
+280-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:106:13-108:75
+281                android:name="android.support.PARENT_ACTIVITY"
+281-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:107:17-63
+282                android:value="com.iiitdmk.gdsc.hackathon.Resources.ME.MEBranch" />
+282-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:108:17-72
+283        </activity>
+284        <activity
+284-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:316:9-323:20
+285            android:name="com.iiitdmk.gdsc.hackathon.Resources.Common.CommonBranch"
+285-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:317:13-84
+286            android:exported="false"
+286-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:318:13-37
+287            android:screenOrientation="portrait" >
+287-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:319:13-49
+288            <meta-data
+288-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:106:13-108:75
+289                android:name="android.support.PARENT_ACTIVITY"
+289-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:107:17-63
+290                android:value="com.iiitdmk.gdsc.hackathon.Resources.ResourceActivity" />
+290-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:108:17-72
+291        </activity>
+292        <activity
+292-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:325:9-333:20
+293            android:name="com.iiitdmk.gdsc.hackathon.Resources.Common.CommonResourceDocs"
+293-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:326:13-90
+294            android:exported="false"
+294-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:327:13-37
+295            android:screenOrientation="portrait"
+295-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:328:13-49
+296            android:theme="@style/AppTheme.NoActionBar" >
+296-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:329:13-56
+297            <meta-data
+297-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:106:13-108:75
+298                android:name="android.support.PARENT_ACTIVITY"
+298-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:107:17-63
+299                android:value="com.iiitdmk.gdsc.hackathon.Resources.Common.CommonBranch" />
+299-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:108:17-72
+300        </activity>
+301        <activity
+301-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:335:9-343:20
+302            android:name="com.iiitdmk.gdsc.hackathon.Feedback.Feedback"
+302-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:336:13-72
+303            android:exported="false"
+303-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:337:13-37
+304            android:screenOrientation="portrait"
+304-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:338:13-49
+305            android:theme="@style/Theme.AppCompat.NoActionBar" >
+305-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:339:13-63
+306            <meta-data
+306-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:106:13-108:75
+307                android:name="android.support.PARENT_ACTIVITY"
+307-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:107:17-63
+308                android:value="com.iiitdmk.gdsc.hackathon.HomeActivity" />
+308-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:108:17-72
+309        </activity>
+310        <activity
+310-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:345:9-352:20
+311            android:name="com.iiitdmk.gdsc.hackathon.Settings.SettingsActivity"
+311-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:346:13-80
+312            android:exported="false"
+312-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:347:13-37
+313            android:theme="@style/SettingsTheme" >
+313-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:348:13-49
+314            <meta-data
+314-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:106:13-108:75
+315                android:name="android.support.PARENT_ACTIVITY"
+315-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:107:17-63
+316                android:value="com.iiitdmk.gdsc.hackathon.HomeActivity" />
+316-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:108:17-72
+317        </activity>
+318
+319        <receiver
+319-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:354:9-361:20
+320            android:name="com.iiitdmk.gdsc.hackathon.Mess.messnotification.AlarmBootReceiver"
+320-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:355:13-94
+321            android:enabled="true"
+321-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:356:13-35
+322            android:exported="false" >
+322-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:357:13-37
+323            <intent-filter>
+323-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:358:13-360:29
+324                <action android:name="android.intent.action.BOOT_COMPLETED" />
+324-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:359:17-79
+324-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:359:25-76
+325            </intent-filter>
+326        </receiver>
+327        <receiver
+327-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:363:9-367:41
+328            android:name="com.iiitdmk.gdsc.hackathon.Mess.messnotification.BreakfastAlarmReceiver"
+328-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:364:13-99
+329            android:enabled="true"
+329-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:365:13-35
+330            android:exported="false"
+330-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:366:13-37
+331            android:process=":remote" />
+331-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:367:13-38
+332        <receiver
+332-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:369:9-373:41
+333            android:name="com.iiitdmk.gdsc.hackathon.Mess.messnotification.LunchAlarmReceiver"
+333-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:370:13-95
+334            android:enabled="true"
+334-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:371:13-35
+335            android:exported="false"
+335-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:372:13-37
+336            android:process=":remote" />
+336-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:373:13-38
+337        <receiver
+337-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:375:9-379:41
+338            android:name="com.iiitdmk.gdsc.hackathon.Mess.messnotification.TiffinAlarmReceiver"
+338-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:376:13-96
+339            android:enabled="true"
+339-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:377:13-35
+340            android:exported="false"
+340-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:378:13-37
+341            android:process=":remote" />
+341-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:379:13-38
+342        <receiver
+342-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:381:9-385:41
+343            android:name="com.iiitdmk.gdsc.hackathon.Mess.messnotification.DinnerAlarmReceiver"
+343-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:382:13-96
+344            android:enabled="true"
+344-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:383:13-35
+345            android:exported="false"
+345-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:384:13-37
+346            android:process=":remote" />
+346-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:385:13-38
+347
+348        <activity
+348-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:387:9-390:73
+349            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+349-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:388:13-93
+350            android:screenOrientation="portrait"
+350-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:389:13-49
+351            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+351-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:390:13-70
+352
+353        <service android:name="com.google.firebase.components.ComponentDiscoveryService" >
+353-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:392:9-411:19
+353-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:392:18-89
+354            <meta-data
+354-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:393:13-395:85
+355                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+355-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:394:17-139
+356                android:value="com.google.firebase.components.ComponentRegistrar" />
+356-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:395:17-82
+357            <meta-data
+357-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:396:13-398:85
+358                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+358-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:397:17-111
+359                android:value="com.google.firebase.components.ComponentRegistrar" />
+359-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:398:17-82
+360            <meta-data
+360-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:399:13-401:85
+361                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+361-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:400:17-96
+362                android:value="com.google.firebase.components.ComponentRegistrar" />
+362-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:401:17-82
+363            <meta-data
+363-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:402:13-404:85
+364                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+364-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:403:17-109
+365                android:value="com.google.firebase.components.ComponentRegistrar" />
+365-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:404:17-82
+366            <meta-data
+366-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:405:13-407:85
+367                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+367-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:406:17-109
+368                android:value="com.google.firebase.components.ComponentRegistrar" />
+368-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:407:17-82
+369            <meta-data
+369-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:408:13-410:85
+370                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+370-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:409:17-107
+371                android:value="com.google.firebase.components.ComponentRegistrar" />
+371-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:410:17-82
+372        </service>
+373
+374        <meta-data
+374-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:412:9-413:68
+375            android:name="com.google.android.gms.version"
+375-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:412:20-65
+376            android:value="@integer/google_play_services_version" />
+376-->/Users/nileshsharma/Downloads/gdsc_hackathon/hostelConnect/app/src/main/AndroidManifest.xml:413:13-66
+377    </application>
+378
+379</manifest>

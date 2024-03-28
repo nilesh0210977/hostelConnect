@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.facebook.shimmer:shimmer:0.5.0@aar" external-system-id="GRADLE">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/59a577a4f7f11b91317e82e0944dd11e/transformed/jetified-shimmer-0.5.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/59a577a4f7f11b91317e82e0944dd11e/transformed/jetified-shimmer-0.5.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/59a577a4f7f11b91317e82e0944dd11e/transformed/jetified-shimmer-0.5.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/59a577a4f7f11b91317e82e0944dd11e/transformed/jetified-shimmer-0.5.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
